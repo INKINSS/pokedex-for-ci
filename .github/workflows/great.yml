@@ -1,0 +1,14 @@
+name: Say great
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  great_word:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Great world action step
+        run: echo "Great world!"
