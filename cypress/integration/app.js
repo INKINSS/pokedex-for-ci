@@ -1,4 +1,4 @@
-/* global cy */
+import { describe, it, cy } from 'cypress'
 
 describe('Pokedex', function() {
   it('frontpage can be opened', function () {
