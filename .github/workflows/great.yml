@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install -g pnpm@latest-10
-      - run: pnpm install --no-audit --no-fund --no-optional
+      - run: pnpm install
 
       - name: Run Linter
         run: pnpm run eslint
