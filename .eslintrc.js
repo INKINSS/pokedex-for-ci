@@ -20,13 +20,15 @@ module.exports = {
     "react", "jest"
   ],
   "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
     "indent": [
       "error",
         2
       ],
     "linebreak-style": [
       "error",
-      "unix"
+      "windows"
     ],
     "quotes": [
       "error",
@@ -44,7 +46,6 @@ module.exports = {
     "arrow-spacing": [
       "error", { "before": true, "after": true }
     ],
-    "no-console": "warn",
     "react/prop-types": 0
   }
 }
